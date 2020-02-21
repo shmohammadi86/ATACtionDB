@@ -1,0 +1,8 @@
+data/refGene_mm9.rda filter=lfs diff=lfs merge=lfs -text
+data/EnhDB_Epimap_hg19.rda filter=lfs diff=lfs merge=lfs -text
+data/EnhDB_Epimap_hg38.rda filter=lfs diff=lfs merge=lfs -text
+data/EnhDB_Roadmap_hg19.rda filter=lfs diff=lfs merge=lfs -text
+data/LDblocks.rda filter=lfs diff=lfs merge=lfs -text
+data/refGene_hg19.rda filter=lfs diff=lfs merge=lfs -text
+data/refGene_hg38.rda filter=lfs diff=lfs merge=lfs -text
+data/refGene_mm10.rda filter=lfs diff=lfs merge=lfs -text
