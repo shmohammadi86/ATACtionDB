@@ -3,19 +3,10 @@
 \docType{package}
 \name{ATACtionDB}
 \alias{ATACtionDB}
-\alias{ATACtionDB-package}
 \title{ATACtionDB: Supplementary data package for the ATACtion package}
 \description{
 Extenstion of ACTIONet package for single-cell epigenomic dataset
 }
-\section{Usage}{
- 
-
-\enumerate{
-\item TBD
-}
-}
-
 \section{Useful links}{
 
 

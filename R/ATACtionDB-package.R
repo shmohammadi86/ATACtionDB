@@ -2,11 +2,6 @@
 #'
 #' Extenstion of ACTIONet package for single-cell epigenomic dataset
 #'
-#' @section Usage: 
-#' 
-#' \enumerate{
-#' \item TBD
-#' }
 #' @section Useful links:
 #'
 #' \enumerate{
@@ -16,6 +11,7 @@
 #'
 #' @name ATACtionDB
 #' @docType package
-#' @exportPattern "^[[:alpha:]]+"
+#' @exportPattern "^[^\\.]"
+ 
 NULL
 

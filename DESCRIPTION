@@ -13,10 +13,9 @@ Authors@R: c(
 Maintainer: Shahin Mohammadi <mohammadi@broadinstitute.org>
 Description: 
 License: GPL (>= 2)
-URL: http://compbio.mit.edu/ATACtion/
-Depends: ACTIONet,ATACtion
-Imports: ACTIONet,ATACtion
+URL: http://github.com/shmohammadi86/ATACtionDB
+Depends: 
+Imports: 
 Encoding: UTF-8
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.0
 VignetteBuilder: knitr
-
