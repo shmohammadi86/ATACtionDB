@@ -1,0 +1,20 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r message=FALSE, warning=FALSE}
+require(ACTIONet)
+require(ATACtion)
+require(GenomicRanges)
+```
+
+```{r}
+GR = refGene
+df = data.frame(chr = seqnames(GR), start = start(GR), end = end(GR), Gene = GR$Gene)
+df = df[order(df$Gene), ]
+write.table(df, "hg38_refGene.bed", sep = "\t", col.names = F, row.names = F, quote = F)
+
+
+```
+
